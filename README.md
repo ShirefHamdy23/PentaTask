@@ -10,22 +10,21 @@
 ## 	📂 Project Structure
 
 ## 	backend-task/
-## 	├── server.js
-## 	├── database/
-## 	│   └── sales.db
-## 	├── routes/
-## 	│   ├── orders.js
-## 	│   ├── analytics.js
-## 	│   ├── recommendations.js
-## 	├── services/
-## 	│   ├── databaseService.js
-## 	│   ├── weatherService.js
-## 	│   ├── aiService.js
-## 	├── sockets/
-## 	│   └── websocket.js
-## 	├── .env
-## 	├── package.json
-## 	└── README.md
+├── server.js
+	├── database/
+	│   └── sales.db
+ 	├── routes/
+	│   ├── orders.js
+ 	│   ├── analytics.js
+	│   ├── recommendations.js
+	├── services/
+ 	│   ├── databaseService.js
+ 	│   ├── weatherService.js
+ 	│   ├── aiService.js
+ 	├── sockets/
+ 	│   └── websocket.js
+ 	├── package.json
+ 	└── README.md
 
 ## 	🧪 Postman Collection (JSON)
 
