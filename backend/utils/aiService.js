@@ -3,8 +3,7 @@ const OpenAI = require("openai");
 
 const openrouterClient = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
-  apiKey:
-    "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",
+  apiKey:"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",
   defaultHeaders: {
     "HTTP-Referer": "your-app-name-or-domain.com",
     "X-Title": "Product Recommendation System",
@@ -28,7 +27,7 @@ async function getRecommendations(salesData, weather) {
           content: prompt,
         },
       ],
-      max_tokens: 900,
+      max_tokens: 500,
     });
 
     console.log(
